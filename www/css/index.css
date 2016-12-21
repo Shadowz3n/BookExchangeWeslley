@@ -15,8 +15,8 @@ body{-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-user-selec
 .menu-button:hover .bar:nth-of-type(3){-webkit-transform:translateY(-1.5px) rotate(4.5deg);-ms-transform:translateY(-1.5px) rotate(4.5deg);transform:translateY(-1.5px) rotate(4.5deg)}
 .cross .bar:nth-of-type(1){-webkit-transform:translateY(15px) rotate(-45deg);-ms-transform:translateY(15px) rotate(-45deg);transform:translateY(15px) rotate(-45deg)}
 .cross .bar:nth-of-type(2){opacity:0}
-.cross .bar:nth-of-type(3){-webkit-transform:translateY(-15px) rotate(45deg);-ms-transform:translateY(-15px) rotate(45deg);transform:translateY(-15px) rotate(45deg)}
+.cross .bar:nth-of-type(3){-webkit-transform:translateY(-10px) rotate(45deg);-ms-transform:translateY(-10px) rotate(45deg);transform:translateY(-10px) rotate(45deg)}
 .cross:hover .bar:nth-of-type(1){-webkit-transform:translateY(13.5px) rotate(-40.5deg);-ms-transform:translateY(13.5px) rotate(-40.5deg);transform:translateY(13.5px) rotate(-40.5deg)}
 .cross:hover .bar:nth-of-type(2){opacity:.1}
 .cross:hover .bar:nth-of-type(3){-webkit-transform:translateY(-13.5px) rotate(40.5deg);-ms-transform:translateY(-13.5px) rotate(40.5deg);transform:translateY(-13.5px) rotate(40.5deg)}
-.app_content{margin-top:}
+.app_content{margin-top:60px;height:calc(100% - 100px);width:}
