@@ -11,7 +11,7 @@ $(document).ready(function(){
 				}
 			});
 		}).on("touchstart", ".lupa_pesquisar", function(){
-			
+			$(".lupa_pesquisar").toggleClass(".lupa_pesquisar_ativo");
 		});
 	}, false);
 });
