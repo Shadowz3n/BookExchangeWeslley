@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	var touchContentX	= null, touchContentEndX	= null;
-	document.addEventListener('deviceready', function(){
+	var touchContentX	= null;
+	//document.addEventListener('deviceready', function(){
 		$(document).on("click", ".menu, .menu_principal_bg", function(){
 			$(".menu").toggleClass("menu_ativo");
 			$(".menu_principal").toggleClass("menu_principal_ativo");
@@ -8,8 +8,7 @@ $(document).ready(function(){
 		}).on("mousedown touchstart", "#content", function(e){
 			touchContentX	= e.pageX;
 		}).on("mouseup touchend", "#content", function(e){
-			touchContentEndX	= e.pageX;
-			if(touchContentX<Number(touchContentEndX-150)) $(".menu").click();
+			if(touchContentX<Number(e.pageX-150)) $(".menu").click();
 		});
-	}, false);
+	//}, false);
 });
