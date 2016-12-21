@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Book Exchange</name>
+    <description>
+		Aplicativo facilitador de troca de livros
+    </description>
+    <author href="http://www.imps.pro" email="henriquebs@imps.pro">
+		Book Exchange
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
+    <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
+    <plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0" />
+    <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.3" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" />
+    <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <platform name="android">
+		<allow-intent href="market:*" />
+		<access origin="*" subdomains="true" />
+		<allow-intent href="*" />
+		<allow-navigation href="*" />
+		<icon src="img/pequeno.png" density="ldpi" />
+        <icon src="img/pequeno.png" density="mdpi" />
+        <icon src="img/medio.png" density="hdpi" />
+        <icon src="img/medio.png" density="xhdpi" />
+        <icon src="img/grande.png" density="xxhdpi" />
+        <icon src="img/grande.png" density="xxxhdpi" />
+	</platform>
+	<platform name="ios">
+		<allow-intent href="itms:*" />
+		<allow-intent href="itms-apps:*" />
+		<icon src="img/extra_grande.png" width="180" height="180" />
+        <icon src="img/medio.png" width="60" height="60" />
+        <icon src="img/grande.png" width="120" height="120" />
+        <icon src="img/grande.png" width="76" height="76" />
+        <icon src="img/extra_grande.png" width="152" height="152" />
+        <icon src="img/icon-40.png" width="40" height="40" />
+        <icon src="img/medio.png" width="80" height="80" />
+        <icon src="img/medio.png" width="57" height="57" />
+        <icon src="img/grande.png" width="114" height="114" />
+        <icon src="img/grande.png" width="72" height="72" />
+        <icon src="img/extra_grande.png" width="144" height="144" />
+        <icon src="img/pequeno.png" width="29" height="29" />
+        <icon src="img/pequeno.png" width="58" height="58" />
+        <icon src="img/pequeno.png" width="50" height="50" />
+        <icon src="img/grande.png" width="100" height="100" />
+		<feature name="StatusBar">
+			<param name="ios-package" value="CDVStatusBar" onload="true" />
+		</feature>
+	</platform>
+    <platform name="wp8">
+        <icon height="99" platform="wp8" src="www/res/icon/wp8/ApplicationIcon.png" width="99" />
+        <icon height="159" platform="wp8" src="www/res/icon/wp8/Background.png" width="159" />
+        <splash height="1280" platform="wp8" src="www/res/screen/wp8/screen-portrait.jpg" width="768" />
+    </platform>
+    <platform name="windows">
+        <icon height="150" platform="windows" src="img/Square150x150Logo.scale-100.png" width="150" />
+        <icon height="30" platform="windows" src="img/Square30x30Logo.scale-100.png" width="30" />
+        <icon height="50" platform="windows" src="img/StoreLogo.scale-100.png" width="50" />
+        <splash height="300" platform="windows" src="img/SplashScreen.scale-100.png" width="620" />
+        <icon height="120" platform="windows" src="img/StoreLogo.scale-240.png" width="120" />
+        <icon height="44" platform="windows" src="img/Square44x44Logo.scale-100.png" width="44" />
+        <icon height="106" platform="windows" src="img/Square44x44Logo.scale-240.png" width="106" />
+        <icon height="70" platform="windows" src="img/Square70x70Logo.scale-100.png" width="70" />
+        <icon height="71" platform="windows" src="img/Square71x71Logo.scale-100.png" width="71" />
+        <icon height="170" platform="windows" src="img/Square71x71Logo.scale-240.png" width="170" />
+        <icon height="360" platform="windows" src="img/Square150x150Logo.scale-240.png" width="360" />
+        <icon height="310" platform="windows" src="img/Square310x310Logo.scale-100.png" width="310" />
+        <icon height="150" platform="windows" src="img/Wide310x150Logo.scale-100.png" width="310" />
+        <icon height="360" platform="windows" src="img/Wide310x150Logo.scale-240.png" width="744" />
+        <splash height="1920" platform="windows" src="img/SplashScreenPhone.scale-240.png" width="1152" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
