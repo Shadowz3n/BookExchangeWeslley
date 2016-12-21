@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	document.addEventListener('deviceready', function(){
+	//document.addEventListener('deviceready', function(){
 		$(document).on("click", ".menu, .menu_principal_bg", function(){
 			$(".menu").toggleClass("menu_ativo");
 			$(".menu_principal").toggleClass("menu_principal_ativo");
@@ -11,5 +11,5 @@ $(document).ready(function(){
 				}
 			});
 		});
-	}, false);
+	//}, false);
 });
