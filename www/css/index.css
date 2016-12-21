@@ -1,22 +1,20 @@
 *{-webkit-tap-highlight-color: rgba(0,0,0,0)}
 html{width:100%;height:100%}
 body{-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-user-select:none;background-color:#f0f5ee;background-attachment:fixed;font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;font-size:12px;height:100%;margin:0px;padding:0px;text-transform:uppercase;width:100%}
-.swiper-container{width:100%;height:100%}
-.swiper-slide{font-size:18px}
-.menu{min-width:100px;width:70%;max-width:320px;background-color:#d0d0d0;color:#fff}
-.content{width:100%;background-image:url(../img/book_exchange_bg.jpg);background-size:100% auto;background-repeat:no-repeat;background-position:center bottom}
-.bar_to_left{display:table;float:left}
-.menu-button{position:absolute;top:0;left:0;width:100%;padding:15px;cursor:pointer;-webkit-transition:.3s;transition:.3s;background-color:#c13aac}
-.menu-button .bar:nth-of-type(1){margin-top:0}
-.menu-button .bar:nth-of-type(3){margin-bottom:0}
-.bar{position:relative;display:block;width:50px;height:3px;margin:10px auto;background-color:#fff;-webkit-transition:.3s;transition:.3s}
-.menu-button:hover .bar:nth-of-type(1){-webkit-transform:translateY(1.5px) rotate(-4.5deg);-ms-transform:translateY(1.5px) rotate(-4.5deg);transform:translateY(1.5px) rotate(-4.5deg)}
-.menu-button:hover .bar:nth-of-type(2){opacity:.9}
-.menu-button:hover .bar:nth-of-type(3){-webkit-transform:translateY(-1.5px) rotate(4.5deg);-ms-transform:translateY(-1.5px) rotate(4.5deg);transform:translateY(-1.5px) rotate(4.5deg)}
-.cross .bar:nth-of-type(1){-webkit-transform:translateY(15px) rotate(-44deg);-ms-transform:translateY(15px) rotate(-44deg);transform:translateY(15px) rotate(-44deg)}
-.cross .bar:nth-of-type(2){opacity:0}
-.cross .bar:nth-of-type(3){-webkit-transform:translateY(-10px) rotate(44deg);-ms-transform:translateY(-10px) rotate(44deg);transform:translateY(-10px) rotate(44deg)}
-.cross:hover .bar:nth-of-type(1){-webkit-transform:translateY(13.5px) rotate(-40.5deg);-ms-transform:translateY(13.5px) rotate(-40.5deg);transform:translateY(13.5px) rotate(-40.5deg)}
-.cross:hover .bar:nth-of-type(2){opacity:.1}
-.cross:hover .bar:nth-of-type(3){-webkit-transform:translateY(-13.5px) rotate(40.5deg);-ms-transform:translateY(-13.5px) rotate(40.5deg);transform:translateY(-13.5px) rotate(40.5deg)}
-.app_content{margin-top:60px;height:calc(100% - 100px);width:}
+.header{background-color:#c13aac;width:100%;height:60px}
+.content{background-image:url(../img/book_exchange_bg.jpg);background-size:100% auto;background-repeat:no-repeat;background-position:center bottom;width:100%;height:calc(100% - 60px)}
+.menu{width:50px;position:absolute;padding:5px 15px;cursor:pointer}
+.menu span{position:relative;display:block;width:50px;height:3px;margin:10px auto;background-color:#fff;-webkit-transition:.3s;transition:.3s}
+.menu:hover span:nth-of-type(1){-webkit-transform:translateY(1.5px) rotate(-4.5deg);-ms-transform:translateY(1.5px) rotate(-4.5deg);transform:translateY(1.5px) rotate(-4.5deg)}
+.menu:hover span:nth-of-type(2){opacity:.9}
+.menu:hover span:nth-of-type(3){-webkit-transform:translateY(-1.5px) rotate(4.5deg);-ms-transform:translateY(-1.5px) rotate(4.5deg);transform:translateY(-1.5px) rotate(4.5deg)}
+.menu_ativo span:nth-of-type(1){-webkit-transform:translateY(15px) rotate(-43deg);-ms-transform:translateY(15px) rotate(-43deg);transform:translateY(15px) rotate(-43deg)}
+.menu_ativo span:nth-of-type(2){opacity:0}
+.menu_ativo span:nth-of-type(3){-webkit-transform:translateY(-10px) rotate(43deg);-ms-transform:translateY(-10px) rotate(43deg);transform:translateY(-10px) rotate(43deg)}
+.menu_ativo:hover span:nth-of-type(1){-webkit-transform:translateY(13.5px) rotate(-40.5deg);-ms-transform:translateY(13.5px) rotate(-40.5deg);transform:translateY(13.5px) rotate(-40.5deg)}
+.menu_ativo:hover span:nth-of-type(2){opacity:.1}
+.menu_ativo:hover span:nth-of-type(3){-webkit-transform:translateY(-13.5px) rotate(40.5deg);-ms-transform:translateY(-13.5px) rotate(40.5deg);transform:translateY(-13.5px) rotate(40.5deg)}
+.menu_principal{background-color:#f0f5ee;width:70%;height:100%;left:-70%;position:fixed;-webkit-transition:.3s;transition:.3s;z-index:10}
+.menu_principal_ativo{left:0%}
+.menu_principal_bg{background-color:rgba(0,0,0,0.8);position:fixed;top:0px;left:0px;bottom:0px;right:0px;width:100%;height:100%;display:none}
+.menu_principal_bg_ativo{display:block}
