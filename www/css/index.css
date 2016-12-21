@@ -5,7 +5,8 @@ body{-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-user-selec
 .swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
 .menu{min-width:100px;width:70%;max-width:320px;background-color:#c13aac;color:#fff}
 .content{width:100%}
-.menu-button{position:absolute;top:0;left:0;padding:15px;cursor:pointer;-webkit-transition:.3s;transition:.3s;background-color:#c13aac}
+.bar_to_left{display:table;float:left}
+.menu-button{position:absolute;top:0;left:0;width:100%;padding:15px;cursor:pointer;-webkit-transition:.3s;transition:.3s;background-color:#c13aac}
 .menu-button .bar:nth-of-type(1){margin-top:0}
 .menu-button .bar:nth-of-type(3){margin-bottom:0}
 .bar{position:relative;display:block;width:50px;height:5px;margin:10px auto;background-color:#fff;border-radius:10px;-webkit-transition:.3s;transition:.3s}
