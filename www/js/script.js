@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	document.addEventListener('deviceready', function(){
+//$(document).ready(function(){
+//	document.addEventListener('deviceready', function(){
 		var toggleMenu = function(){
 			if(swiper.previousIndex == 0) swiper.slidePrev();
 		},
@@ -21,5 +21,5 @@ $(document).ready(function(){
 			},
 			slideToClickedSlide:true
 		});
-	}, false);
-});
+//	}, false);
+//});
