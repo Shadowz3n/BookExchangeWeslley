@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	//document.addEventListener('deviceready', function(){
+	document.addEventListener('deviceready', function(){
 		$(document).on("click", ".menu, .menu_principal_bg", function(){
 			$(".menu").toggleClass("menu_ativo");
 			$(".menu_principal").toggleClass("menu_principal_ativo");
@@ -10,6 +10,8 @@ $(document).ready(function(){
 					if(Number(e.changedTouches[e.changedTouches.length-1].pageX)<=Number(Number(ev.changedTouches[ev.changedTouches.length-1].pageX)-150)) $(".menu").click();
 				}
 			});
+		}).on("touchstart", ".lupa_pesquisar", function(){
+			
 		});
-	//}, false);
+	}, false);
 });
