@@ -22,3 +22,9 @@ body{-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-user-selec
 .lupa_pesquisar{width:43px;height:44px;float:right;margin:8px 12px 0px 0px;-webkit-transition:.3s;transition:.3s;overflow:hidden}
 .lupa_pesquisar img{width:35px;height:35px;margin-top:4px;float:right}
 .lupa_pesquisar_ativo{width:60%}
+li{
+	margin: 65px 150px;
+	cursor: pointer;
+	display: block;
+	font-family: helvetica, sans-serif;
+}
