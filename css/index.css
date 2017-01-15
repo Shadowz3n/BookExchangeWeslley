@@ -31,7 +31,7 @@ body{
 .lupa_pesquisar img{width:35px;height:35px;margin-top:4px;float:right}
 .lupa_pesquisar_ativo{width:60%}
 li{
-	margin: 50px 50px;
+	margin: 40px 40px;
 	cursor: pointer;
 	display: block;
 	font-family: helvetica, sans-serif;
