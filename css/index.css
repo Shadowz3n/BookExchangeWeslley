@@ -28,7 +28,7 @@ body{
 .menu_principal_bg_ativo{opacity:1;z-index:9}
 .content_branco{background:white;width:calc(100% - 34px);padding:12px 17px}
 .lupa_pesquisar{width:40px;height:41px;float:right;margin:5px 12px 0px 0px;-webkit-transition:.3s;transition:.3s;overflow:hidden}
-.lupa_pesquisar img{width:35px;height:35px;margin-top:4px;float:right}
+.lupa_pesquisar img{width:33px;height:33px;margin-top:4px;float:right}
 .lupa_pesquisar_ativo{width:60%}
 li{
 	margin: 40px 40px;
