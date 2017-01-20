@@ -37,13 +37,20 @@ body{
 li{
 	cursor: pointer;
 	display: block;
-	font-family: helvetica, sans-serif;
-	margin: 25px 1px;
 	
+	margin: 25px 1px;
+	text-decoration: none;
 }
 
 .PERFIL1{
 	background: #DCDCDC;
 	width:calc(100% - 34px);
 	padding:75px 17px;
+}
+
+.INICIO1{
+	text-decoration: none;
+	color: black;
+	font-family: helvetica, sans-serif;
+	border: 0.5;
 }
