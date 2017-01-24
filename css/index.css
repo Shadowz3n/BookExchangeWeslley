@@ -32,7 +32,6 @@ body{
 .menu_principal_bg_ativo{opacity:1;z-index:9}
 .content_branco{background:white;width:calc(100% - 34px);padding:12px 17px}
 .content_branco1{background:rgba;width:calc(100% - 34px);padding:12px 17px}
-.lupa_pesquisar{width:40px;height:41px;float:right;margin:5px 12px 0px 0px;-webkit-transition:.3s;transition:.3s;overflow:hidden}
 .lupa_pesquisar img{width:25px;height:25px;margin-top:6px;float:right;cursor:pointer;}
 .lupa_pesquisar_ativo{width:60%}
 li{
@@ -63,13 +62,23 @@ input[type=submit]{
 	border: 0.5;
 }
 
-.content{
-	background-image:url(../img/book_exchange_bg.jpg);
+
+#divBusca{
+	width:260px;
+	float:right;
+	margin:6px 20px 0px 0px;
+	-webkit-transition:.3s;
+	transition:.3s;
+	overflow:hidden
+}
+
+#txtBusca{
 	background-size:100% auto;
-	background-repeat:no-repeat;
-	background-position:center bottom;
-	padding:20px 20px;
-	padding:20px 20px;
-	width:calc(100% - 70px);
-	height:calc(100% - 110px)
+	float:left;
+	background-color:transparent;
+	padding-left:8px;
+	font-size:15px;
+	border:none;
+	height:38.2px;
+	width:250px;
 }
