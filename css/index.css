@@ -14,7 +14,7 @@ body{
 #content{
 	background-image:url(../img/book_exchange_bg.jpg);background-size:100% auto;background-repeat:no-repeat;background-position:center bottom;padding:15px 35px;width:calc(100% - 70px);height:calc(100% - 80px)
 }
-
+div textarea { resize:none; }
 .menu{width:50px;position:absolute;padding:6px 8px;cursor:pointer}
 .menu span{position:relative;display:block;width:30px;height:2.1px;margin:8px auto;background-color:#fff;-webkit-transition:.3s;transition:.3s}
 .menu:hover span:nth-of-type(1){-webkit-transform:translateY(1.5px) rotate(-4.5deg);-ms-transform:translateY(1.5px) rotate(-4.5deg);transform:translateY(1.5px) rotate(-4.5deg)}
@@ -92,4 +92,9 @@ input[type=submit]{
 	border:none;
 	height:38.2px;
 	width:250px;
+}
+
+.duvidas {
+	padding: 5px 25%;
+	margin: 20px 11px;
 }
