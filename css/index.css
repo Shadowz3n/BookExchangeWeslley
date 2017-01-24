@@ -12,7 +12,7 @@ body{
 }
 
 #content{
-	background-image:url(../img/book_exchange_bg.jpg);background-size:100% auto;background-repeat:no-repeat;background-position:center bottom;padding:29.9px 35px;width:calc(100% - 70px);height:calc(100% - 110px)
+	background-image:url(../img/book_exchange_bg.jpg);background-size:100% auto;background-repeat:no-repeat;background-position:center bottom;padding:15px 35px;width:calc(100% - 70px);height:calc(100% - 80px)
 }
 
 .menu{width:50px;position:absolute;padding:6px 8px;cursor:pointer}
@@ -34,24 +34,35 @@ body{
 .content_branco1{background:rgba;width:calc(100% - 34px);padding:12px 17px}
 .lupa_pesquisar img{width:25px;height:25px;margin-top:6px;float:right;cursor:pointer;}
 .lupa_pesquisar_ativo{width:60%}
-li{
-	cursor: pointer;
-	display: block;
-	margin: 25px 1px;
-	text-decoration: none;
-}
 
-.PERFIL1{
+#perfil{
 	background: #DCDCDC;
 	width:calc(100% - 34px);
 	padding:75px 17px;
+	cursor:pointer;
+	display:block;	
+}
+
+#perfil1{
+	font-family: helvetica, sans-serif;
+	text-decoration: none;
+	display:block;
+	color:black;
+	position: absolute;
+	top: 20%;
+	left: 28%;
 }
 
 .INICIO1{
+	
 	text-decoration: none;
 	color: black;
 	font-family: helvetica, sans-serif;
 	border: 0.5;
+	cursor: pointer;
+	display: block;
+	margin: 25px 50px;
+	text-decoration: none;
 }
 
 input[type=submit]{
